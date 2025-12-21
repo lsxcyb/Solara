@@ -1,5 +1,9 @@
-const API_BASE_URL = "https://api.tunefree.fun/api";
+const API_BASE_URL = "https://api.injahow.cn/meting/";
+/* 备用API选项 */
+/* const API_BASE_URL = "https://api.tunefree.fun/api"; */
 /* const API_BASE_URL = "https://music-api.gdstudio.xyz/api.php"; */
+/* 聚合搜索API - 支持多平台聚合搜索 */
+/* const API_BASE_URL = "https://api.tunefree.fun/api/?type=aggregateSearch"; */
 const KUWO_HOST_PATTERN = /(^|\.)kuwo\.cn$/i;
 const SAFE_RESPONSE_HEADERS = ["content-type", "cache-control", "accept-ranges", "content-length", "content-range", "etag", "last-modified", "expires"];
 
